@@ -1,0 +1,17 @@
+body{
+    background-color: rgba(121, 93, 3, 0.219);
+}
+#fejlec{
+    text-align: right;
+}
+.jobb{
+    text-align: right;
+}
+#also{
+    width: 1870px;
+    border: solid;
+}
+.kozep{
+    text-align: center;
+    width: 1870px;
+}

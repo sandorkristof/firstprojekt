@@ -1,0 +1,51 @@
+body{
+    background-color: burlywood;
+    width: 800px;
+    text-align: center;
+    
+    
+}
+
+td{
+    height: 8px;
+}
+
+table{
+    text-align: left;
+    margin: auto;
+}
+
+.fejlec{
+    border-style: solid;
+}
+
+hr{
+    width: 900px;
+    
+    
+}
+
+.bal{
+    text-align: left;
+    
+}
+
+.jobb{
+    text-align: right;
+    border:solid;
+    width: 800px;
+    
+}
+
+.kozep{
+    text-align: center;
+    
+}
+
+.hirek{
+    font-size: 25px;
+}
+
+div{
+    width: 50%;
+}
