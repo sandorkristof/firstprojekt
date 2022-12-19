@@ -1,0 +1,1154 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pool</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="w3hubs.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <div class="container-fluid justify-content-between">
+        <!-- Left elements -->
+        <div class="d-flex my-2 my-sm-0">
+          <!-- Toggler -->
+          <button data-mdb-toggle="sidenav" data-mdb-target="#sidenav-1"
+            class="btn shadow-0 p-0 ms-2 me-3 d-block d-xl-none" aria-controls="#sidenav-1" aria-haspopup="true">
+            <i class="fas fa-bars fa-lg"></i>
+          </button>
+          <!-- Brand -->
+          <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="#">
+            <img src="kepek/logo.png" height="50" alt="" loading="lazy" style="margin-top: 2px" />
+          </a>
+
+          <!-- Search form -->
+          <form class="input-group w-auto my-auto d-none d-sm-flex">
+            <input autocomplete="off" type="search" class="form-control rounded" placeholder="Keresés"
+              style="min-width: 125px" />
+           
+          </form>
+        </div>
+        <!-- Left elements -->
+
+        <!-- Center elements -->
+        <ul class="navbar-nav flex-row d-none d-md-flex">
+          <li class="nav-item me-3 me-lg-1 active" id="kozep">
+            <a class="nav-link" href="#">
+              <span><i class="fas fa-home fa-lg"><img src="kepek/home.png" alt="" height="25"></i></span>
+
+            </a>
+
+          </li>
+
+          <li class="nav-item me-3 me-lg-1" id="kozep">
+            <a class="nav-link" href="csoport.html">
+              <span><i class="fas fa-flag fa-lg"><img src="kepek/icon1.png" alt="" height="25"></i></span>
+            </a>
+          </li>
+
+          <li class="nav-item me-3 me-lg-1" id="kozep">
+            <a class="nav-link" href="Messages.html">
+              <span><i class="fas fa-video fa-lg"><img src="kepek/baratok.png" alt="" height="25"></i></span>
+            </a>
+          </li>
+
+          <li class="nav-item me-3 me-lg-1" id="kozep">
+            <a class="nav-link" href="#">
+              <span><i class="fas fa-shopping-bag fa-lg"><img src="kepek/konti.png" alt="" height="25"></i></span>
+            </a>
+          </li>
+
+
+        </ul>
+        <!-- Center elements -->
+
+        <!-- Right elements -->
+        <ul class="navbar-nav flex-row">
+          <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link d-sm-flex align-items-sm-center" href="profil.html">
+              <img src="kepek/profil.png" class="rounded-circle" height="22" alt="" loading="lazy" />
+
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link" href="#">
+              <span><i class="fas fa-plus-circle fa-lg"></i></span>
+            </a>
+          </li>
+          <li class="nav-item dropdown dropdown-menu-end">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span><i class="fas fa-shopping-bag fa-lg"><img src="kepek/text.png" alt="" height="15"></i></span>
+
+            </a>
+            <!--Messenger szerű valami akarna lenni        -->
+            <ul class="dropdown-menu   dropdown-menu-end messenger">
+              <section style=" background-color: #00E728; ">
+                <div class="container kalap py-5">
+
+                  <div class="row d-flex justify-content-center w-100">
+                    <div class="col-md-10 col-lg-8 col-xl-6">
+
+                      <div class="card" id="chat2">
+
+                        <div class="card-body" data-mdb-perfect-scrollbar="true"
+                          style="position: relative; height: 400px">
+
+                          <div class="d-flex flex-row justify-content-start">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                            <div>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">Hi</p>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">How are you
+                                ...???
+                              </p>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">What are you
+                                doing
+                                tomorrow? Can we come up a bar?</p>
+                              <p class="small ms-3 mb-3 rounded-3 text-muted">23:58</p>
+                            </div>
+                          </div>
+
+                          <div class="divider d-flex align-items-center mb-4">
+                            <p class="text-center mx-3 mb-0" style="color: #a2aab7;">Today</p>
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-end mb-4 pt-1">
+                            <div>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">Hiii, I'm good.</p>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">How are you doing?</p>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">Long time no see! Tomorrow
+                                office. will
+                                be free on sunday.</p>
+                              <p class="small me-3 mb-3 rounded-3 text-muted d-flex justify-content-end">00:06</p>
+                            </div>
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava4-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-start mb-4">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                            <div>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">Okay</p>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">We will go on
+                                Sunday?</p>
+                              <p class="small ms-3 mb-3 rounded-3 text-muted">00:07</p>
+                            </div>
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-end mb-4">
+                            <div>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">That's awesome!</p>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">I will meet you Sandon
+                                Square
+                                sharp at
+                                10 AM</p>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">Is that okay?</p>
+                              <p class="small me-3 mb-3 rounded-3 text-muted d-flex justify-content-end">00:09</p>
+                            </div>
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava4-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-start mb-4">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                            <div>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">Okay i will
+                                meet
+                                you on
+                                Sandon Square</p>
+                              <p class="small ms-3 mb-3 rounded-3 text-muted">00:11</p>
+                            </div>
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-end mb-4">
+                            <div>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">Do you have pictures of
+                                Matley
+                                Marriage?</p>
+                              <p class="small me-3 mb-3 rounded-3 text-muted d-flex justify-content-end">00:11</p>
+                            </div>
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava4-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-start mb-4">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                            <div>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">Sorry I don't
+                                have. i
+                                changed my phone.</p>
+                              <p class="small ms-3 mb-3 rounded-3 text-muted">00:13</p>
+                            </div>
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-end">
+                            <div>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">Okay then see you on
+                                sunday!!
+                              </p>
+                              <p class="small me-3 mb-3 rounded-3 text-muted d-flex justify-content-end">00:15</p>
+                            </div>
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava4-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                          </div>
+                          <div class="card-footer text-muted d-flex justify-content-start align-items-center ">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
+                              alt="avatar 3" style="width: 40px; height: 40px;">
+                            <input type="text" class="form-control form-control-lg" id="exampleFormControlInput1"
+                              placeholder="Type message">
+                            <a class="ms-1 text-muted" href="#!"><i class="fas fa-paperclip"></i></a>
+                            <a class="ms-3 text-muted" href="#!"><i class="fas fa-smile"></i></a>
+                            <a class="ms-3" href="#!"><i class="fas fa-paper-plane"></i></a>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </section>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span><i class="fas fa-shopping-bag fa-lg"><img src="kepek/mark.png" alt="" height="15"></i></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Link</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span><i class="fas fa-shopping-bag fa-lg"><img src="kepek/noti.png" alt="" height="15"></i></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Some news</a></li>
+          </li>
+        </ul>
+        <!-- Right elements -->
+      </div>
+    </nav>
+
+  </header>
+  <!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+  <div class="d-flex flex-column flex-shrink-0 bg-light oldal_bar" style="width: 4.5rem;">
+    <a href="/" class="d-block p-3 link-dark text-decoration-none " title="" data-bs-toggle="tooltip"
+      data-bs-placement="right" data-bs-original-title="Icon-only">
+      <img src="kepek/bal_nyil.png" alt="" height="30px">
+
+    </a>
+    <ul class="nav nav-pills nav-flush flex-column mb-auto text-center">
+      <li class="nav-item">
+        <a href="#" class="nav-link py-3 border-bottom border-top" aria-current="page" title="" data-bs-toggle="tooltip"
+          data-bs-placement="right" data-bs-original-title="Home">
+          <img src="kepek/mail.png" alt="" height="30px">
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link py-3 border-bottom" title="" data-bs-toggle="tooltip" data-bs-placement="right"
+          data-bs-original-title="Dashboard">
+          <img src="kepek/papir.png" alt="" height="30px">
+        </a>
+      </li>
+      <li>
+        <a href="#" class="nav-link py-3 border-bottom" title="" data-bs-toggle="tooltip" data-bs-placement="right"
+          data-bs-original-title="Orders">
+          <img src="kepek/kocka.png" alt="" height="30px">
+        </a>
+      </li>
+      <li>
+        <a href="naptar.html" class="nav-link py-3 border-bottom" title="" data-bs-toggle="tooltip" data-bs-placement="right"
+          data-bs-original-title="Products">
+          <img src="kepek/grad.png" alt="" height="30px">
+        </a>
+      </li>
+
+    </ul>
+
+  </div>
+
+
+  <div class="d-fixed flex-column flex-shrink-0 bg-light oldal_bar_job float-center" style="width:290px;">
+    <h3 class="text-center">Story</h3>
+    
+    <div class="story__container">
+      <!-- Storyblock START -->
+      <div class="story__block">
+        
+        <div class="story__profile__container">
+            <img class="d-flex flex-row align-items-center rounded-circle" width="30"  src="kepek/profil.png" alt="Profile banner">
+            <p class="story__profile__name">Orbán Viktor</p>
+        </div>
+        
+        <div class="story__body">
+  
+          <div class="card d-fixed" style="width: 18rem;">
+            <img src="kepek/sablon2.jpg" class="card-img-top" alt="...">
+          </div>
+  
+        </div>
+  
+        <div class="story__footer">
+          <div class="story__reactions__container">
+
+            <div class="story__reaction">
+              <div>💯</div>
+            </div>
+            <div class="story__reaction">
+              <div>🤣</div>
+            </div>
+            <div class="story__reaction">
+              <div>😥</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+       <!-- Storyblock END -->
+      <!-- Storyblock START -->
+      <div class="story__block">
+        
+        <div class="story__profile__container">
+            <img class="d-flex flex-row align-items-center rounded-circle" width="30"  src="kepek/profil.png" alt="Profile banner">
+            <p class="story__profile__name">Orbán Viktor</p>
+        </div>
+        
+        <div class="story__body">
+  
+          <div class="card d-fixed" style="width: 18rem;">
+            <img src="kepek/sablon2.jpg" class="card-img-top" alt="...">
+          </div>
+  
+        </div>
+  
+        <div class="story__footer">
+          <div class="story__reactions__container">
+
+            <div class="story__reaction">
+              <div>💯</div>
+            </div>
+            <div class="story__reaction">
+              <div>🤣</div>
+            </div>
+            <div class="story__reaction">
+              <div>😥</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+       <!-- Storyblock END -->
+       <!-- Storyblock START -->
+      <div class="story__block">
+        
+        <div class="story__profile__container">
+            <img class="d-flex flex-row align-items-center rounded-circle" width="30"  src="kepek/profil.png" alt="Profile banner">
+            <p class="story__profile__name">Orbán Viktor</p>
+        </div>
+        
+        <div class="story__body">
+  
+          <div class="card d-fixed" style="width: 18rem;">
+            <img src="kepek/sablon2.jpg" class="card-img-top" alt="...">
+          </div>
+  
+        </div>
+  
+        <div class="story__footer">
+          <div class="story__reactions__container">
+
+            <div class="story__reaction">
+              <div>💯</div>
+            </div>
+            <div class="story__reaction">
+              <div>🤣</div>
+            </div>
+            <div class="story__reaction">
+              <div>😥</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+       <!-- Storyblock END -->
+       <!-- Storyblock START -->
+      <div class="story__block">
+        
+        <div class="story__profile__container">
+            <img class="d-flex flex-row align-items-center rounded-circle" width="30"  src="kepek/profil.png" alt="Profile banner">
+            <p class="story__profile__name">Orbán Viktor</p>
+        </div>
+        
+        <div class="story__body">
+  
+          <div class="card d-fixed" style="width: 18rem;">
+            <img src="kepek/sablon2.jpg" class="card-img-top" alt="...">
+          </div>
+  
+        </div>
+  
+        <div class="story__footer">
+          <div class="story__reactions__container">
+
+            <div class="story__reaction">
+              <div>💯</div>
+            </div>
+            <div class="story__reaction">
+              <div>🤣</div>
+            </div>
+            <div class="story__reaction">
+              <div>😥</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+       <!-- Storyblock END -->
+       <!-- Storyblock START -->
+      <div class="story__block">
+        
+        <div class="story__profile__container">
+            <img class="d-flex flex-row align-items-center rounded-circle" width="30"  src="kepek/profil.png" alt="Profile banner">
+            <p class="story__profile__name">Orbán Viktor</p>
+        </div>
+        
+        <div class="story__body">
+  
+          <div class="card d-fixed" style="width: 18rem;">
+            <img src="kepek/sablon2.jpg" class="card-img-top" alt="...">
+          </div>
+  
+        </div>
+  
+        <div class="story__footer">
+          <div class="story__reactions__container">
+
+            <div class="story__reaction">
+              <div>💯</div>
+            </div>
+            <div class="story__reaction">
+              <div>🤣</div>
+            </div>
+            <div class="story__reaction">
+              <div>😥</div>
+            </div>
+
+          </div>
+        </div>
+      </div>
+       <!-- Storyblock END -->
+
+
+
+
+
+
+
+
+
+    </div>
+  </div>
+
+
+
+
+  <div class="container" style="width:750px;">
+    <div class="container mt-5 mb-5 align-items-center justify-content-center">
+      <div class="row  d-flex align-items-center justify-content-center kozep  ">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="kepek/selfie.png  " class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5 ">
+      <div class="row  kozep ">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="kepek/selfie.png  " class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="container mt-5 mb-5">
+      <div class="row  kozep">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="kepek/sablon2.jpg" class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row  kozep">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="https://i.imgur.com/xhzhaGA.jpg" class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row  kozep">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="https://i.imgur.com/xhzhaGA.jpg" class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row  kozep">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="https://i.imgur.com/xhzhaGA.jpg" class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row kozep">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="https://i.imgur.com/xhzhaGA.jpg" class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row  kozep">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="https://i.imgur.com/xhzhaGA.jpg" class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row  kozep">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="https://i.imgur.com/xhzhaGA.jpg" class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row  kozep">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="https://i.imgur.com/xhzhaGA.jpg" class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row  kozep">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="https://i.imgur.com/xhzhaGA.jpg" class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row  kozep">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="https://i.imgur.com/xhzhaGA.jpg" class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container mt-5 mb-5">
+      <div class="row  kozep">
+        <div class="col-md-15">
+          <div class="card">
+            <div class="d-flex justify-content-between p-2 px-3">
+              <div class="d-flex flex-row align-items-center"> <img src="kepek/profil.png" width="50"
+                  class="rounded-circle">
+                <div class="d-flex flex-column ml-2"> <span class="font-weight-bold">Jeanette Sun</span> <small
+                    class="text-primary">Collegues</small> </div>
+              </div>
+              <div class="d-flex flex-row mt-1 ellipsis"> <small class="mr-2">20 mins</small> <i
+                  class="fa fa-ellipsis-h"></i> </div>
+            </div> <img src="https://i.imgur.com/xhzhaGA.jpg" class="img-fluid">
+            <div class="p-2">
+              <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+                incididunt.</p>
+              <hr>
+              <div class="d-flex justify-content-between align-items-center">
+                <div class="d-flex flex-row icons d-flex align-items-center"> <i class="fa fa-heart"></i> <i
+                    class="fa fa-smile-o ml-2"></i> </div>
+                <div class="d-flex flex-row muted-color"> <span>2 comments</span> <span class="ml-2">Share</span> </div>
+              </div>
+              <hr>
+              <div class="comments">
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/9AZ2QX1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Daniel Frozer</span> <small
+                      class="comment-text">I like this alot! thanks alot</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>18 mins</small> </div>
+                  </div>
+                </div>
+                <div class="d-flex flex-row mb-2"> <img src="https://i.imgur.com/1YrCKa1.jpg" width="40"
+                    class="rounded-image">
+                  <div class="d-flex flex-column ml-2"> <span class="name">Elizabeth goodmen</span> <small
+                      class="comment-text">Thanks for sharing!</small>
+                    <div class="d-flex flex-row align-items-center status"> <small>Like</small> <small>Reply</small>
+                      <small>Translate</small> <small>8 mins</small> </div>
+                  </div>
+                </div>
+                <div class="comment-input"> <input type="text" class="form-control">
+                  <div class="fonts"> <i class="fa fa-camera"></i> </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

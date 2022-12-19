@@ -1,0 +1,124 @@
+*{
+    background-color: #ffffff;
+    font-family: "Nunito Sans";
+}
+.navbar-nav{
+    color: #198754;
+}
+
+#kozep{
+    padding: 0px 70px;
+}
+header{
+    margin-bottom: 100px;
+}
+
+
+.oldal_bar{
+    
+    float: left;
+    position:fixed;
+}
+.oldal_bar_job{
+    height: 100vh;
+    float: right;
+    position: fixed;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    right: 0;
+}
+.story__block{
+    margin-bottom: 8em;
+}
+
+.story__header h5 {
+    text-align: center;
+}
+
+.story__profile__container {
+    display: flex;
+    align-items: center;
+    margin: 1em 0;
+    
+}
+.story__profile__container>p {
+    margin: 0;
+    padding-left: 5px;
+    font-size: .9em;
+    font-weight: 700;
+
+}
+.story__reactions__container {
+    display: flex;
+    flex-wrap: wrap;
+    background: #00E728;
+    padding: .5em;
+    
+    border-bottom-left-radius: 1em;
+    border-bottom-right-radius: 1em;
+
+}
+.story__footer {
+   
+
+}
+.story__reaction {
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.story__reaction>div {
+    padding: .5em;
+    border-radius: 50%;
+    background-color: rgb(240, 240, 240);
+    cursor: pointer;
+    transition: all .2s
+}
+.story__reaction>div:hover {
+    background-color: rgb(219, 219, 219);
+    
+}
+
+.story__body img {
+    border-radius: .5em;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.kozep{
+    width: 500px;
+    
+}
+
+.messenger{
+    position: relative;
+    display: none;
+    min-width: 630px;
+    overflow: auto;
+}
+.card-footer{
+    width: auto;
+}
+
+#chat2 .form-control {
+    border-color: transparent;
+    }
+    
+    #chat2 .form-control:focus {
+    border-color: transparent;
+    box-shadow: inset 0px 0px 0px 1px transparent;
+    }
+    
+    .divider:after,
+    .divider:before {
+    content: "";
+    flex: 1;
+    height: 1px;
+    background: #eee;
+    }
+    .kalap{
+        width: 800px;
+    }
+    /*Profile.html*/
+    .hatter{
+        background-color: #00E728;
+    }

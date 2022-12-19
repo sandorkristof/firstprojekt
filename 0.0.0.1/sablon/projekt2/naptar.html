@@ -1,0 +1,451 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Pool</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="w3hubs.com">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="naptar.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-light">
+      <div class="container-fluid justify-content-between">
+        <!-- Left elements -->
+        <div class="d-flex my-2 my-sm-0">
+          <!-- Toggler -->
+          <button data-mdb-toggle="sidenav" data-mdb-target="#sidenav-1"
+            class="btn shadow-0 p-0 ms-2 me-3 d-block d-xl-none" aria-controls="#sidenav-1" aria-haspopup="true">
+            <i class="fas fa-bars fa-lg"></i>
+          </button>
+          <!-- Brand -->
+          <a class="navbar-brand me-2 mb-1 d-flex align-items-center" href="fo.html">
+            <img src="kepek/logo.png" height="50" alt="" loading="lazy" style="margin-top: 2px" />
+          </a>
+
+          <!-- Search form -->
+          <form class="input-group w-auto my-auto d-none d-sm-flex">
+            <input autocomplete="off" type="search" class="form-control rounded" placeholder="Keresés"
+              style="min-width: 125px" />
+           
+          </form>
+        </div>
+        <!-- Left elements -->
+
+        <!-- Center elements -->
+        <ul class="navbar-nav flex-row d-none d-md-flex">
+          <li class="nav-item me-3 me-lg-1 active" id="kozep">
+            <a class="nav-link" href="fo.html">
+              <span><i class="fas fa-home fa-lg"><img src="kepek/home.png" alt="" height="25"></i></span>
+
+            </a>
+
+          </li>
+
+          <li class="nav-item me-3 me-lg-1" id="kozep">
+            <a class="nav-link" href="csoport.html">
+              <span><i class="fas fa-flag fa-lg"><img src="kepek/icon1.png" alt="" height="25"></i></span>
+            </a>
+          </li>
+
+          <li class="nav-item me-3 me-lg-1" id="kozep">
+            <a class="nav-link" href="Messages.html">
+              <span><i class="fas fa-video fa-lg"><img src="kepek/baratok.png" alt="" height="25"></i></span>
+            </a>
+          </li>
+
+          <li class="nav-item me-3 me-lg-1" id="kozep">
+            <a class="nav-link" href="#">
+              <span><i class="fas fa-shopping-bag fa-lg"><img src="kepek/konti.png" alt="" height="25"></i></span>
+            </a>
+          </li>
+
+
+        </ul>
+        <!-- Center elements -->
+
+        <!-- Right elements -->
+        <ul class="navbar-nav flex-row">
+          <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link d-sm-flex align-items-sm-center" href="profil.html">
+              <img src="kepek/profil.png" class="rounded-circle" height="22" alt="" loading="lazy" />
+
+            </a>
+          </li>
+          <li class="nav-item me-3 me-lg-1">
+            <a class="nav-link" href="#">
+              <span><i class="fas fa-plus-circle fa-lg"></i></span>
+            </a>
+          </li>
+          <li class="nav-item dropdown dropdown-menu-end">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span><i class="fas fa-shopping-bag fa-lg"><img src="kepek/text.png" alt="" height="15"></i></span>
+
+            </a>
+            <!--Messenger szerű valami akarna lenni        -->
+            <ul class="dropdown-menu   dropdown-menu-end messenger">
+              <section style=" background-color: #00E728; ">
+                <div class="container kalap py-5">
+
+                  <div class="row d-flex justify-content-center w-100">
+                    <div class="col-md-10 col-lg-8 col-xl-6">
+
+                      <div class="card" id="chat2">
+
+                        <div class="card-body" data-mdb-perfect-scrollbar="true"
+                          style="position: relative; height: 400px">
+
+                          <div class="d-flex flex-row justify-content-start">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                            <div>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">Hi</p>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">How are you
+                                ...???
+                              </p>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">What are you
+                                doing
+                                tomorrow? Can we come up a bar?</p>
+                              <p class="small ms-3 mb-3 rounded-3 text-muted">23:58</p>
+                            </div>
+                          </div>
+
+                          <div class="divider d-flex align-items-center mb-4">
+                            <p class="text-center mx-3 mb-0" style="color: #a2aab7;">Today</p>
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-end mb-4 pt-1">
+                            <div>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">Hiii, I'm good.</p>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">How are you doing?</p>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">Long time no see! Tomorrow
+                                office. will
+                                be free on sunday.</p>
+                              <p class="small me-3 mb-3 rounded-3 text-muted d-flex justify-content-end">00:06</p>
+                            </div>
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava4-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-start mb-4">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                            <div>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">Okay</p>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">We will go on
+                                Sunday?</p>
+                              <p class="small ms-3 mb-3 rounded-3 text-muted">00:07</p>
+                            </div>
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-end mb-4">
+                            <div>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">That's awesome!</p>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">I will meet you Sandon
+                                Square
+                                sharp at
+                                10 AM</p>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">Is that okay?</p>
+                              <p class="small me-3 mb-3 rounded-3 text-muted d-flex justify-content-end">00:09</p>
+                            </div>
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava4-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-start mb-4">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                            <div>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">Okay i will
+                                meet
+                                you on
+                                Sandon Square</p>
+                              <p class="small ms-3 mb-3 rounded-3 text-muted">00:11</p>
+                            </div>
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-end mb-4">
+                            <div>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">Do you have pictures of
+                                Matley
+                                Marriage?</p>
+                              <p class="small me-3 mb-3 rounded-3 text-muted d-flex justify-content-end">00:11</p>
+                            </div>
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava4-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-start mb-4">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                            <div>
+                              <p class="small p-2 ms-3 mb-1 rounded-3" style="background-color: #f5f6f7;">Sorry I don't
+                                have. i
+                                changed my phone.</p>
+                              <p class="small ms-3 mb-3 rounded-3 text-muted">00:13</p>
+                            </div>
+                          </div>
+
+                          <div class="d-flex flex-row justify-content-end">
+                            <div>
+                              <p class="small p-2 me-3 mb-1 text-white rounded-3 bg-primary">Okay then see you on
+                                sunday!!
+                              </p>
+                              <p class="small me-3 mb-3 rounded-3 text-muted d-flex justify-content-end">00:15</p>
+                            </div>
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava4-bg.webp"
+                              alt="avatar 1" style="width: 45px; height: 100%;">
+                          </div>
+                          <div class="card-footer text-muted d-flex justify-content-start align-items-center ">
+                            <img src="https://mdbcdn.b-cdn.net/img/Photos/new-templates/bootstrap-chat/ava3-bg.webp"
+                              alt="avatar 3" style="width: 40px; height: 40px;">
+                            <input type="text" class="form-control form-control-lg" id="exampleFormControlInput1"
+                              placeholder="Type message">
+                            <a class="ms-1 text-muted" href="#!"><i class="fas fa-paperclip"></i></a>
+                            <a class="ms-3 text-muted" href="#!"><i class="fas fa-smile"></i></a>
+                            <a class="ms-3" href="#!"><i class="fas fa-paper-plane"></i></a>
+                          </div>
+                        </div>
+
+                      </div>
+
+                    </div>
+                  </div>
+
+                </div>
+              </section>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown ">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span><i class="fas fa-shopping-bag fa-lg"><img src="kepek/mark.png" alt="" height="15"></i></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Link</a></li>
+
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              <span><i class="fas fa-shopping-bag fa-lg"><img src="kepek/noti.png" alt="" height="15"></i></span>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdownMenuLink">
+              <li><a class="dropdown-item" href="#">Some news</a></li>
+          </li>
+        </ul>
+        <!-- Right elements -->
+      </div>
+    </nav>
+
+  </header>
+  <!----------------------------------------------------------------------------------------------------------------------------------------------------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <div class="container py-5">
+
+    <!-- For Demo Purpose -->
+    <header class="text-center text-white mb-5">
+      <h1 class="display-4">Bootstrap Calendar</h1>
+      <p class="font-italic mb-0">A nicely-designed Bootstrap calendar widget. This calendar is just a for design purpose, you can make it work.</p>
+      <p class="font-italic">Snippet By <a href="https://bootstrapious.com" class="text-white">
+          <u>Bootstrapious</u></a>
+      </p>
+    </header>
+  
+  
+    <!-- Calendar -->
+    <div class="calendar shadow bg-white p-5">
+      <div class="d-flex align-items-center"><i class="fa fa-calendar fa-3x mr-3"></i>
+        <h2 class="month font-weight-bold mb-0 text-uppercase">December 2022</h2>
+      </div>
+      <p class="font-italic text-muted mb-5">Hány dolgod van? (ide írjuk)</p>
+      <ol class="day-names list-unstyled">
+        <li class="font-weight-bold text-uppercase">Sun</li>
+        <li class="font-weight-bold text-uppercase">Mon</li>
+        <li class="font-weight-bold text-uppercase">Tue</li>
+        <li class="font-weight-bold text-uppercase">Wed</li>
+        <li class="font-weight-bold text-uppercase">Thu</li>
+        <li class="font-weight-bold text-uppercase">Fri</li>
+        <li class="font-weight-bold text-uppercase">Sat</li>
+      </ol>
+  
+      <ol class="days list-unstyled">
+        <li class="outside">
+          <div class="date">28</div>
+          <div class="event bg-success">Event with Long Name</div>
+        </li>
+        <li class="outside">
+          <div class="date">29</div>
+        </li>
+        <li class="outside">
+          <div class="date">30</div>
+        </li>
+        <li>
+          <div class="date">1</div>
+        </li>
+        <li>
+          <div class="date">2</div>
+        </li>
+        <li>
+          <div class="date">3</div>
+        </li>
+        <li>
+          <div class="date">4</div>
+        </li>
+        <li>
+          <div class="date">5</div>
+        </li>
+        <li>
+          <div class="date">6</div>
+        </li>
+        <li>
+          <div class="date">7</div>
+        </li>
+        <li>
+          <div class="date">8</div>
+        </li>
+        <li>
+          <div class="date">9</div>
+        </li>
+        <li>
+          <div class="date">10</div>
+          <div class="event all-day begin span-2 bg-warning">Valami</div>
+        </li>
+        <li>
+          <div class="date">11</div>
+        </li>
+        <li>
+          <div class="date">12</div>
+          <div class="event all-day end bg-success">Itt is </div>
+        </li>
+        <li>
+          <div class="date">13</div>
+        </li>
+        <li>
+          <div class="date">14</div>
+        </li>
+        <li>
+          <div class="date">15</div>
+        </li>
+        <li>
+          <div class="date">16</div>
+        </li>
+        <li>
+          <div class="date">17</div>
+        </li>
+        <li>
+          <div class="date">18</div>
+          <div class="event bg-primary">Több is </div>
+          <div class="event bg-success">Itt is </div>
+        </li>
+        <li>
+          <div class="date">19</div>
+          <div class="event bg-info">Event with Longer Name</div>
+        </li>
+        <li>
+          <div class="date">20</div>
+        </li>
+        <li>
+          <div class="date">21</div>
+        </li>
+        <li>
+          <div class="date">22</div>
+        </li>
+        <li>
+          <div class="date">23</div>
+        </li>
+        <li>
+          <div class="date">24</div>
+        </li>
+        <li>
+          <div class="date">25</div>
+        </li>
+        <li>
+          <div class="date">26</div>
+        </li>
+        <li>
+          <div class="date">27</div>
+        </li>
+        <li>
+          <div class="date">28</div>
+        </li>
+        <li >
+          <div class="date">29</div>
+        </li>
+        <li >
+          <div class="date">30</div>
+        </li>
+        <li >
+          <div class="date">31</div>
+        </li>
+        <li class="outside">
+          <div class="date">1</div>
+        </li>
+      </ol>
+    </div>
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+  integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+  crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+  integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+  crossorigin="anonymous"></script>
+</body>
+
+</html>

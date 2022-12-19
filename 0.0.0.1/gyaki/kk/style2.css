@@ -1,0 +1,456 @@
+hr{
+    color: #2F343A;
+}
+
+
+
+
+#fejlec{
+    text-align: right;
+    animation: floating 4s   infinite linear;
+    margin: 0%;
+
+}
+#fejlec_bal{
+    text-align: left;
+}
+.szoveg{
+    color: white;
+    
+    
+}
+
+ #hir6_nagy{
+     text-align: center;
+     margin-top: 0%;
+ }
+
+.jobb{
+    margin-left: auto;
+    margin-top: 200px;
+    height: 50%;
+    width: 300px;
+}
+
+
+
+
+.kozep{
+    margin-left: auto;
+    text-align: right;
+    padding-left: 40px;
+    
+    
+}
+.also{
+    display: flex;
+    align-items: center;
+    width:100%;
+    flex-direction: row;
+    
+    color: white;
+    padding-top: 100px;
+
+    
+}
+.card-group{
+    margin-top:100px;
+    
+    
+}
+
+
+
+
+.card-title{
+    font-weight: bold;
+    color: #717D8C;
+    
+}
+
+.card-img-top{
+    height: 300px;
+    
+    width: 430px;
+    
+   
+}
+.card-text{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #2F343A;
+    font-weight: bold;
+    font-size: 25px;
+}
+.card {
+    width: 00px;
+    
+    box-shadow: 2px 1px 6px 2px rgba(255, 255, 255, 0.315), 0 6px 5px 0 rgba(95, 77, 77, 0.19);
+    text-align: center;
+    
+  }
+
+hr{
+   width: 100%; 
+}
+.bal{
+    margin-left: 100px;
+}
+
+#nav__menu{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+#kereso{
+    margin-left: auto;
+}
+#nav_gomb{
+    margin-left: auto;
+    display: flex;
+    
+}
+.dropdown{
+    margin: 0 4em;
+}
+.nav__link{
+    margin: auto;
+    
+}
+
+
+#logo{  
+    width: 150px;
+    height: 150px;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-bottom: 0px;
+}
+#kep_ukraina{
+    width: auto;
+    height: 300px;
+    margin-left: -230px;
+
+}
+
+#kk{
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+#kereso {
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 1em ;
+}
+
+form {
+    position: relative;
+}
+
+form input[type=text] {
+    font-size: 18px;
+    width: 0px;
+    padding: 8px 0;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    transition: 0.3s all ease-in-out;
+}
+
+form.active input[type=text] {
+    width: 250px;
+    padding: 8px 20px;
+}
+
+form button[type=button] {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    border: none;
+    border-radius: 100%;
+    background-color: #0c9bc7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+form button[type=button] svg {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s all ease;
+}
+
+form.active button[type=button] svg.search,
+form button[type=button] svg.close {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+form.active button[type=button] svg.close {
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+}
+
+
+
+
+        
+ /*Jobbfelső fejléc */
+
+            section {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                width: 100%;
+                height: 100vh;
+            }
+
+            h1 {
+                font-size: 20px;
+                font-weight: normal;
+                color: rgb(0, 0, 0);
+            }
+
+            h1 span {
+                position: relative;
+                overflow: hidden;
+                display: block;
+                list-style: 2;
+                margin: 2px 0;
+            }
+
+            h1 span::before {
+                position: absolute;
+                content: '';
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                background-color:rgba(64,68,71,255);
+                transform: translateX(0);
+                animation: showBefore 2s cubic-bezier(0.77, 0,0.18,1) forwards;
+            }
+
+            h1 span::after {
+                position: absolute;
+                content: '';
+                top: 0;
+                right: 0;
+                width: 100%;
+                height: 100%;
+                background-color: #0c9bc7;
+                transform: translateX(-101%);
+                animation: showAfter 2s cubic-bezier(0.77, 0,0.18,1) forwards;
+            }
+
+            h1 span:nth-of-type(1)::before,
+            h1 span:nth-of-type(1)::after {
+                animation-delay: 1s;
+            }
+
+            h1 span:nth-of-type(2)::before,
+            h1 span:nth-of-type(2)::after {
+                animation-delay: 1.5 s;
+            }
+
+            @keyframes showBefore {
+                0% { transform: translateX(0); }
+                100% { transform: translateX(200%); }
+            }
+
+            @keyframes showAfter {
+                0% { transform: translateX(-100%); }
+                100% { transform: translateX(101%); }
+            }
+        /*Jobbfelső fejléc Vége*/
+        
+
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        }
+
+        html, body {
+            width: 100%;
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+         }
+            
+            :root {
+            box-sizing: border-box;
+
+            }
+        
+   
+         .secret_kep{
+             width: 600px;
+            float: unset;
+            margin-bottom: 1em;
+         }               
+         
+        .szoveg_kozep{
+             text-align: center;        
+         }
+
+        
+
+         
+         .cim{
+             font-size: 40px;
+             text-align: center;
+             margin-bottom: 1em;
+
+         }
+
+         
+
+         
+
+         .beer{
+             float: unset;
+             border-radius: 1em;
+             width:600px;
+             
+             margin-bottom: 2em;
+             height: 300px;
+             
+         }
+
+         .fo_szoveg{
+             width: 1200px;
+             font-size: larger;
+             text-align:left;
+             margin-left: 7em;
+             text-shadow: 0px 0px 2px;
+         }
+         
+
+         /*MARCI*/
+         .erzsebetszoveg{
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+        }
+        
+        .kepkeret2{
+            text-align: center;
+            margin-bottom: 2em;
+
+
+        }
+        
+        .Binladen{
+            width:auto;
+            height: 300px;
+            border-radius: 1em;
+        }
+
+        /*VÉge*/
+        #eliza_video{
+            text-align: center;
+        }
+       
+        table{
+            
+            float: right;
+            margin-bottom: 10px;
+        }
+
+        td{
+            padding: 3px;
+        }
+
+        .fehe{
+            font-size: 12px;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+                
+        }
+
+        .kek{
+            font-size: 12px;
+            color: #717D8C;
+            font-weight: bold;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        
+        
+        .jobbra{
+            text-align: right;
+        }
+
+        .mid{
+            width: auto;
+            text-align: center;
+            font-size: larger;
+             margin: 0 2em 0 2em;
+             text-shadow: 0px 0px 2px;
+        }
+
+        
+
+
+        
+
+
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        

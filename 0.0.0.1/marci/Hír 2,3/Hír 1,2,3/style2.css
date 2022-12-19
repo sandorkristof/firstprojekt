@@ -1,0 +1,416 @@
+
+#fejlec{
+    text-align: right;
+    animation: floating 4s   infinite linear;
+    margin: 0%;
+
+}
+#fejlec_bal{
+    text-align: left;
+}
+.szoveg{
+    color: white;
+    
+    
+}
+
+ #hir6_nagy{
+     text-align: center;
+     margin-top: 0%;
+ }
+
+.jobb{
+    margin-left: auto;
+    margin-top: 200px;
+    height: 50%;
+    width: 300px;
+}
+
+
+
+
+.kozep{
+    margin-left: auto;
+    text-align: right;
+    padding-left: 40px;
+    
+    
+}
+.also{
+    display: flex;
+    align-items: center;
+    width:100%;
+    flex-direction: row;
+    
+    color: white;
+    padding-top: 100px;
+
+    
+}
+.card-text{
+    color: black;
+}
+
+hr{
+   width: 100%; 
+}
+.bal{
+    margin-left: 100px;
+}
+
+#nav__menu{
+    display: flex;
+    width: 100%;
+    margin: auto;
+}
+#kereso{
+    margin-left: auto;
+}
+#nav_gomb{
+    margin-left: auto;
+    display: flex;
+    
+}
+.dropdown{
+    margin: 0 1em;
+}
+.nav__link{
+    margin: auto;
+    
+}
+
+
+#logo{  
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50px;
+    margin-bottom: 0px;
+}
+#kep_ukraina{
+    width: auto;
+    height: 300px;
+    margin-left: -230px;
+
+}
+
+#kk{
+    margin-left: 0%;
+    margin-bottom: 0%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+#kereso {
+    height: 50px;
+    width: auto;
+    display: flex;
+    justify-content: right;
+    align-items: right;
+    margin-right: 1em ;
+}
+
+form {
+    position: relative;
+}
+
+form input[type=text] {
+    font-size: 18px;
+    width: 0px;
+    padding: 8px 0;
+    border: none;
+    border-radius: 25px 0 0 25px;
+    transition: 0.3s all ease-in-out;
+}
+
+form.active input[type=text] {
+    width: 250px;
+    padding: 8px 20px;
+}
+
+form button[type=button] {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+    border: none;
+    border-radius: 100%;
+    background-color: #0c9bc7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+form button[type=button] svg {
+    width: 30px;
+    height: 30px;
+    transition: 0.3s all ease;
+}
+
+form.active button[type=button] svg.search,
+form button[type=button] svg.close {
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
+form.active button[type=button] svg.close {
+    width: 25px;
+    height: 25px;
+    opacity: 1;
+}
+
+
+
+
+        
+ /*Jobbfelső fejléc */
+
+        section {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100%;
+            height: 100px;
+        }
+
+       #jobfelso{
+            font-size: 20px;
+            font-weight: normal;
+            color: #fff;
+        }
+
+        #jobfelso span {
+            position: relative;
+            overflow: hidden;
+            display: block;
+            list-style: 2;
+            margin: 2px 0;
+        }
+
+        #jobfelso span::before {
+            position: absolute;
+            content: '';
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            transform: translateX(0);
+            animation: showBefore 2s cubic-bezier(0.77, 0,0.18,1) forwards;
+        }
+
+        #jobfelso span::after {
+            position: absolute;
+            content: '';
+            top: 0;
+            right: 0;
+            width: 100%;
+            height: 100%;
+            background-color: #0c9bc7;
+            transform: translateX(-101%);
+            animation: showAfter 1s cubic-bezier(0.77, 0,0.18,1) forwards;
+            
+        }
+
+        #jobfelso span:nth-of-type(1)::before,
+        #jobfelso span:nth-of-type(1)::after {
+            animation-delay: 1s;    
+        }
+
+       #jobfelso span:nth-of-type(2)::before,
+        #jobfelso span:nth-of-type(2)::after {
+            animation-delay: 1.5 s;
+        }
+
+        @keyframes showBefore {
+            0% { transform: translateX(0); }
+            100% { transform: translateX(200%); }
+        }
+
+        @keyframes showAfter {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(101%); }
+        }
+        /*Jobbfelső fejléc Vége*/
+        
+
+
+
+
+        * {
+            margin: 0;
+            padding: 0;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        html, body {
+            width: 100%;
+            min-height: 100vh;
+            padding: 0;
+            margin: 0;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(33, 37, 41);
+            color:#fff;
+         }
+            
+            :root {
+            box-sizing: border-box;
+
+            }
+        .laden_lebeg{
+            width: 450px;
+            height: 300px;
+            display: block;
+            justify-content: left;
+            align-items: left;
+            border-radius: 100px;
+            margin-left: 0px;
+            
+        }
+
+
+        .hir_job{
+            filter: grayscale(90%);
+            width: auto;
+            height: 100px;
+            display: block;
+            justify-content: left;
+            align-items: left;
+            border-radius: 200px;
+        }
+        
+        .ukran_kozep{
+            text-align: center;
+            width:  450px;
+            height: 300px;
+            display: flex;
+            margin-right: 150px;
+            border-radius: 100px;
+        }
+
+        aside {
+            width: 350px;
+            height: 350px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        aside img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            object-position: center;
+            
+            transition: 0.3s all linear;
+        }
+
+        aside:hover img {
+            filter: grayscale(0%);
+        }
+
+        aside div.title {
+            position: relative;
+            bottom: 100px;
+            background-color: rgb(255, 255, 255);
+            padding: 5px 20px;
+            font-size: 18px;
+            font-weight: 500;
+            width: 280px;
+            left: -100%;
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
+            transition: 0.3s all ease-in-out;
+            transition-delay: 0.3s;
+        }
+
+        aside:hover div.title {
+            left: 0;
+            transition-delay: 0s;
+        }
+
+        aside div.subTitle {
+            position: absolute;
+            bottom: 40px;
+            background-color: #fff;
+            padding: 5px 20px;
+            width: 300px;
+            right: -100%;
+            box-shadow: 0 2px 5px 0 rgba(0,0,0,0.5);
+            transition: 0.3s all ease-in-out;
+            transition-delay: 0s;
+        }
+
+        aside:hover div.subTitle {
+            right: 0;
+            transition-delay: 0.3s;
+        }
+
+        .kepkeret{
+            text-align: center;
+        }
+
+.erzsebetszoveg{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.kepkeret2{
+    text-align: center;
+}
+
+.Binladen{
+    width: 465px;
+    height: 600px;
+}
+   
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
